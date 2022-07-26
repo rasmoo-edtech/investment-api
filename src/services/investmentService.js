@@ -17,7 +17,11 @@ const investments = [
     new Investment(uuid(), 'Avianca', 783.33, 13.10, new Date('02-15-2025')),
     new Investment(uuid(), 'Nubank', 11868, 0.1, new Date('10-01-2023')),
     new Investment(uuid(), 'XP Investimentos', 2000, 0.1, new Date('08-08-2022')),
-    new Investment(uuid(), 'Casas Bahia', 85.3, 0.1, new Date('11-11-2022'))
+    new Investment(uuid(), 'Via Varejo', 85.3, 0.1, new Date('11-11-2022')),
+    new Investment(uuid(), 'Meluiz', 668, 0.1, new Date('04-11-2022')),
+    new Investment(uuid(), 'Lojas Renner', 450, 0.1, new Date('01-01-2026')),
+    new Investment(uuid(), 'Azul', 893, 0.1, new Date('11-06-2022')),
+    new Investment(uuid(), 'Fleury', 180, 0.1, new Date('05-18-2023'))
 ];
 
 const findAll = ({ name, minValue, maxValue, minTax, minTime }) => {
